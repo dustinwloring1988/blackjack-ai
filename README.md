@@ -1,6 +1,6 @@
 ## Blackjack AI
 
-# Blackjack Reinforcement Learning  This project implements a simple reinforcement learning model to play the game of Blackjack. The model is based on Q-learning and is trained to make optimal decisions during the game.  ## Getting Started  ### Prerequisites  Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/).  
+Blackjack Reinforcement Learning  This project implements a simple reinforcement learning model to play the game of Blackjack. The model is based on Q-learning and is trained to make optimal decisions during the game.  ## Getting Started  ### Prerequisites  Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/).  
 
 ### Installation  
 
