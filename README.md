@@ -18,19 +18,19 @@ How to Run
 
 1.  Clone the repository to your local machine:
     
-    bashCopy code
+    bash
     
     `git clone https://github.com/your-username/blackjack-qlearning-project.git`
     
 2.  Navigate to the project directory:
     
-    bashCopy code
+    bash
     
     `cd blackjack-qlearning-project`
     
 3.  Run the main training script:
     
-    bashCopy code
+    bash
     
     `python train_qlearning.py`
     
@@ -40,7 +40,7 @@ How to Run
     
     *   **Play the Game**: If you want to manually play the Blackjack game, run the `blackjack.py` script.
         
-        bashCopy code
+        bash
         
         `python blackjack.py`
         
@@ -57,7 +57,7 @@ Ensure you have the following dependencies installed:
 
 Install dependencies using:
 
-bashCopy code
+bash
 
 `pip install numpy`
 
