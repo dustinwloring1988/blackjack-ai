@@ -1,64 +1,54 @@
-Blackjack Q-Learning Project
-============================
+Blackjack AI
 
-Overview
---------
+`# Blackjack Reinforcement Learning  This project implements a simple reinforcement learning model to play the game of Blackjack. The model is based on Q-learning and is trained to make optimal decisions during the game.  ## Getting Started  ### Prerequisites  Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/).  ### Installation  1. Clone the repository:     ```bash    git clone https://github.com/your-username/blackjack-reinforcement-learning.git`
 
-This repository contains Python scripts for implementing a simple Blackjack game and training a Q-learning model to play the game. The project consists of three main scripts:
-
-1.  **blackjack.py**: Implements the core functionality of the Blackjack game, allowing users to play and interact with the game through a command-line interface.
-    
-2.  **blackjack\_qlearning.py**: Defines a Q-learning agent to learn optimal strategies for playing Blackjack. The Q-learning algorithm is applied to update the agent's Q-table based on observed rewards and state transitions.
-    
-3.  **train\_qlearning.py**: Utilizes the Q-learning agent to train and evaluate its performance over a specified number of training episodes. After training, the script runs a set of test games to assess the agent's ability to play Blackjack.
-    
-
-How to Run
-----------
-
-1.  Clone the repository to your local machine:
-    
-    `git clone https://github.com/your-username/blackjack-qlearning-project.git`
-    
 2.  Navigate to the project directory:
     
-    `cd blackjack-qlearning-project`
+    `cd blackjack-ai`
     
-3.  Run the main training script:
+3.  Install the required dependencies:
     
-    `python train_qlearning.py`
+    `pip install -r requirements.txt`
     
-    This script will train the Q-learning agent over a set number of episodes and evaluate its performance.
-    
-4.  Explore the game and trained model:
-    
-    *   **Play the Game**: If you want to manually play the Blackjack game, run the `blackjack.py` script.
-        
-        `python blackjack.py`
-        
-    *   **Inspect the Q-learning Model**: If you want to explore the Q-table and Q-learning model, refer to the `blackjack_qlearning.py` script.
-        
 
-Dependencies
+Usage
+-----
+
+To train the Q-learning model and play the game:
+
+`python train_and_play.py`
+
+This will train the model and then play a few games.
+
+Training Multiple Models Concurrently
+-------------------------------------
+
+To train multiple models concurrently with different parameters:
+
+`python train_multi_thread.py`
+
+This script allows you to train multiple models simultaneously with different settings.
+
+Results
+-------
+
+The results of the training, including wins, losses, and draws, are saved in the `training_results.csv` file.
+
+Customization
+-------------
+
+Feel free to customize the game logic, Q-learning model, and training parameters based on your preferences.
+
+Contributing
 ------------
 
-Ensure you have the following dependencies installed:
-
-*   Python 3.x
-*   NumPy
-
-Install dependencies using:
-
-`pip install numpy`
-
-Contributors
-------------
-
-*   Dustin Loring (@AIGym on huggingface)
+Contributions are welcome! If you have any ideas or improvements, please open an issue or submit a pull request.
 
 License
 -------
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Feel free to customize this README to provide additional information or specific instructions for your project. If there are any external dependencies or setup steps, make sure to include them in the instructions.
+vbnetCopy code
+
+``Replace "your-username" with your GitHub username in the clone URL. Also, be sure to include a license file (e.g., `LICENSE`) in your repository, specifying the terms under which others can use, modify, and distribute your code. The example README provides a basic structure, and you can expand on it as your project evolves.``
