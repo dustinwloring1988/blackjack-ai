@@ -10,7 +10,7 @@ Blackjack Reinforcement Learning  This project implements a simple reinforcement
 
 1. Clone the repository:
 
-   ```bash    git clone https://github.com/your-username/blackjack-reinforcement-learning.git`
+   `git clone https://github.com/dustinwloring1988/blackjack-ai.git`
 
 3.  Navigate to the project directory:
     
@@ -58,7 +58,3 @@ License
 -------
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-vbnetCopy code
-
-``Replace "your-username" with your GitHub username in the clone URL. Also, be sure to include a license file (e.g., `LICENSE`) in your repository, specifying the terms under which others can use, modify, and distribute your code. The example README provides a basic structure, and you can expand on it as your project evolves.``
