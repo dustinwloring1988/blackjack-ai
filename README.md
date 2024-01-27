@@ -1,12 +1,18 @@
-Blackjack AI
+## Blackjack AI
 
-`# Blackjack Reinforcement Learning  This project implements a simple reinforcement learning model to play the game of Blackjack. The model is based on Q-learning and is trained to make optimal decisions during the game.  ## Getting Started  ### Prerequisites  Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/).  ### Installation  1. Clone the repository:     ```bash    git clone https://github.com/your-username/blackjack-reinforcement-learning.git`
+# Blackjack Reinforcement Learning  This project implements a simple reinforcement learning model to play the game of Blackjack. The model is based on Q-learning and is trained to make optimal decisions during the game.  ## Getting Started  ### Prerequisites  Make sure you have Python installed on your machine. You can download it from [python.org](https://www.python.org/).  
 
-2.  Navigate to the project directory:
+### Installation  
+
+1. Clone the repository:
+
+   ```bash    git clone https://github.com/your-username/blackjack-reinforcement-learning.git`
+
+3.  Navigate to the project directory:
     
     `cd blackjack-ai`
     
-3.  Install the required dependencies:
+4.  Install the required dependencies:
     
     `pip install -r requirements.txt`
     
@@ -16,7 +22,7 @@ Usage
 
 To train the Q-learning model and play the game:
 
-`python train_and_play.py`
+`python blackjack_qlearning.py`
 
 This will train the model and then play a few games.
 
@@ -25,7 +31,7 @@ Training Multiple Models Concurrently
 
 To train multiple models concurrently with different parameters:
 
-`python train_multi_thread.py`
+`python batch_train_qlearning.py`
 
 This script allows you to train multiple models simultaneously with different settings.
 
